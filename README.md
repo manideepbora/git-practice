@@ -7,4 +7,4 @@
 - git log show the history of projects commits
 - git branch: List branches
 - git checkout -b : create branch then check out to that branch
-
+- get checkout: check out a branch, update HEAD
