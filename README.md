@@ -17,3 +17,4 @@
 - git diff cached: difference between stagging area and head- ready to be commited
 - git diff <CommitA> <CommitB>: difference between two commits
 - git diff <refa>  <refB> between like branch etc. 
+- git merge : merge changes from different branches
