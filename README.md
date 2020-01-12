@@ -11,6 +11,8 @@
 - git checkout -b : create branch then check out to that branch
 - git branch -d <branch>: deletes the branch  
 - git branch -c <branch name>: creates a branch
+- git branch --no-merged branch1 : all branches from branch1 that are not merged
+- git branch -merged branch1 : all branches that are merged to branch1
 - git checkout <branch name>: switch to branch
 - git checkout: Check out branch (update HEAD and apply changes to the working directory)
 - git log: show the history of projects commits
@@ -29,11 +31,14 @@
 - git diff cached: difference between stagging area and head- ready to be commited
 - git diff <CommitA> <CommitB>: difference between two commits
 - git diff <refa>  <refB> between like branch etc. 
+
 - git merge : merge changes from different branches
 - git merge --abort : undo the merge operation, do it when you have a merge conflict
-- git merge --no-commit --no-ff new-branch :donot merge or ff 
+- git merge --no-commit --no-ff new-branch :attempt to merge, donot create a auto merge or ff merge
+ 
 
 merging means joing two branches
 - A fast-forward merge happens when the target branch was branched from the current one, and there are no changes to the current branch sicne then.
 - An automatic merge happens when two branch diversed, but git able to reconcile them to one set of changes. This create a new commit on the current branch.
- 
+merge two branches-
+use one of the git merge options, then resolved any conflicts if there. then git add to add the modifed file to cache and then commit 
