@@ -8,7 +8,7 @@
 - git log --since : "6 months ago"
 - git log --author : for the author
 - git log --branch : sicne the branch
-- git log --oneline
+- git log --oneline : show the chanes in one line-very useful
 - git log --all : all logs for the repository
 - git log --graph : show the various branches and how these commits are related to
 - git show <commit> : show difference introduced by the commit
