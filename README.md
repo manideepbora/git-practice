@@ -2,12 +2,14 @@
 
 - git init: Create a new repository
 - git config: Set or get configuration
-- git stats: compare the working directory, staging area, and current branch
+- git status: compare the working directory, staging area, and current branch
 - git commit: commit changes to stagging area
 
+- git stash: Stash changes from the working directory
+- git stash list: List stashes 
+- git stash pop: Apply stash changes to the working directory
+
 - git branch: Show all branch with an astrike on the current branch
-- git log show the history of projects commits
-- git branch: List branches
 - git checkout -b : create branch then check out to that branch
 - git branch -d <branch>: deletes the branch  
 - git branch -c <branch name>: creates a branch
