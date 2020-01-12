@@ -37,7 +37,9 @@
 - git merge : merge changes from different branches
 - git merge --abort : undo the merge operation, do it when you have a merge conflict
 - git merge --no-commit --no-ff new-branch :attempt to merge, donot create a auto merge or ff merge
- 
+- git remote add <remote> <url>: add new <remote> at <url>
+- git remote -v:List remote repository
+- git push -u <remote> <branch>: push <branch> to <remote> and set remote upstream 
 
 merging means joing two branches
 - A fast-forward merge happens when the target branch was branched from the current one, and there are no changes to the current branch sicne then.
