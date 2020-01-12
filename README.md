@@ -18,7 +18,7 @@
 - git diff <CommitA> <CommitB>: difference between two commits
 - git diff <refa>  <refB> between like branch etc. 
 - git merge : merge changes from different branches
-
+- git branch -d <branch>: deletes the branch  
 
 
 ## Merging
