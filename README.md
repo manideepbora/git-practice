@@ -11,3 +11,9 @@
 - git log --oneline
 - git log --all : all logs for the repository
 - git log --graph : show the various branches and how these commits are related to
+- git show <commit> : show difference introduced by the commit
+- git diff: Show difference between working directory and HEAD
+- git diff <commit>: show difference between working directory and commit
+- git diff cached: difference between stagging area and head- ready to be commited
+- git diff <CommitA> <CommitB>: difference between two commits
+- git diff <refa>  <refB> between like branch etc. 
