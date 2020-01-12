@@ -1,15 +1,17 @@
 ## Commands used
 
 - git init: Create a new repository
+- git config: Set or get configuration
 - git stats: compare the working directory, staging area, and current branch
 - git commit: commit changes to stagging area
-- git status: show the current branch
 
 - git branch: Show all branch with an astrike on the current branch
+- git log show the history of projects commits
+- git branch: List branches
+- git checkout -b : create branch then check out to that branch
 - git branch -d <branch>: deletes the branch  
 - git branch -c <branch name>: creates a branch
 - git checkout <branch name>: switch to branch
-
 - git checkout: Check out branch (update HEAD and apply changes to the working directory)
 - git log: show the history of projects commits
 - git log --since : "6 months ago"
