@@ -24,3 +24,4 @@
 ## Merging
 merging means joing two branches
 - A fast-forward merge happens when the target branch was branched from the current one, and there are no changes to the current branch sicne then.
+- An automatic merge happens when two branch diversed, but git able to reconcile them to one set of changes. This create a new commit on the current branch.
