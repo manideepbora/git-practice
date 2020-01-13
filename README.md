@@ -42,7 +42,7 @@
 - git remote -v:List remote repository
 - git push -u <remote> <branch>: push <branch> to <remote> and set remote upstream 
 - git fetch: fetches code from remote repository, however, it creates a different branch and should merge to see those changes
-  
+- git pull: fetch and then merge, to avoid two steps fetch and merge.   
 
 merging means joing two branches
 - A fast-forward merge happens when the target branch was branched from the current one, and there are no changes to the current branch sicne then.
